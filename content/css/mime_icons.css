@@ -1,0 +1,143 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.icon_large, .icon_small {
+    display:inline-block;
+    background:url(/content/imgs/mimeType_icons.png) no-repeat; 
+}
+
+.icon_large{height:64px; width:64px;}
+.icon_small{height:16px; width:16px;}
+
+.doc-64-3{ background-position:0px 0px;}
+.accdb-64{ background-position:-84px 0px;}
+.avi-64{ background-position:-168px 0px;}
+.bmp-64{ background-position:-252px 0px;}
+.css-64{ background-position:-336px 0px;}
+
+.doc-64-1{ background-position:-420px 0px;}
+.doc-64-2{ background-position:-504px 0px;}
+.eml-64{ background-position:-588px 0px;}
+.eps-64{ background-position:-672px 0px;}
+.fla-64{ background-position:-756px 0px;}
+
+.gif-64{ background-position:0px -84px;}
+.html-64{ background-position:-84px -84px;}
+.ind-64{ background-position:-168px -84px;}
+.ini-64{ background-position:-252px -84px;}
+.jpeg-64{ background-position:-336px -84px;}
+
+.jsf-64{ background-position:-420px -84px;}
+.midi-64{ background-position:-504px -84px;}
+.mov-64{ background-position:-588px -84px;}
+.mp3-64{ background-position:-672px -84px;}
+.mpeg-64{ background-position:-756px -84px;}
+
+.pdf-64{ background-position:0px -168px;}
+.png-64{ background-position:-84px -168px;}
+.pptx-64-1{ background-position:-168px -168px;}
+.pptx-64-2{ background-position:-252px -168px;}
+.proj-64{ background-position:-336px -168px;}
+
+.psd-64{ background-position:-420px -168px;}
+.pst-64{ background-position:-504px -168px;}
+.pub-64{ background-position:-588px -168px;}
+.rar-64{ background-position:-672px -168px;}
+.readme-64{ background-position:-756px -168px;}
+
+.settings-64{ background-position:0px -252px;}
+.text-64{ background-position:-84px -252px;}
+.tiff-64{ background-position:-168px -252px;}
+.url-64{ background-position:-252px -252px;}
+
+.vsd-64{ background-position:-336px -252px;}
+.wav-64{ background-position:-420px -252px;}
+.wma-64{ background-position:-504px -252px;}
+.wmv-64{ background-position:-588px -252px;}
+.xlsx-64-1{ background-position:-672px -252px;}
+.xlsx-64-2{ background-position:-756px -252px;}
+.xls-64-3{ background-position:-168px -336px;}
+.zip-64{ background-position:0px -336px;}
+.ppt-64-3{ background-position:-84px -336px;}
+.csv-64{ background-position:-252px -336px;}
+.mp4-64{ background-position:-336px -336px;}
+
+.xml-64{ background-position:-420px -336px;}
+.ogg-64{ background-position:-504px -336px;}
+.no-64{ background-position:-588px -336px;}/*iso,exe,msi,js,bak,msu,dll,swf*/
+.iso-64{ background-position:-672px -336px;}
+.exe-64{ background-position:-756px -336px;}
+
+.msi-64{ background-position:0px -420px;}
+.js-64{ background-position:-84px -420px;}
+.bak-64{ background-position:-168px -420px;}
+.msu-64{ background-position:-252px -420px;}
+.dll-64{ background-position:-336px -420px;}
+.swf-64{ background-position:-420px -420px;}
+
+
+.doc-16-3{ background-position:-19px -502px;}
+.accdb-16{ background-position:-45px -502px;}
+.avi-16{ background-position:-71px -502px;}
+.bmp-16{ background-position:-97px -502px;}
+.css-16{ background-position:-123px -502px;}
+
+.doc-16-1{ background-position:-149px -502px;}
+.doc-16-2{ background-position:-175px -502px;}
+.eml-16{ background-position:-201px -502px;}
+.eps-16{ background-position:-227px -502px;}
+.fla-16{ background-position:-253px -502px;}
+
+.gif-16{ background-position:-279px -502px;}
+.html-16{ background-position:-305px -502px;}
+.ind-16{ background-position:-331px -502px;}
+.ini-16{ background-position:-357px -502px;}
+.jpeg-16{ background-position:-383px -502px;}
+
+.jsf-16{ background-position:-409px -502px;}
+.midi-16{ background-position:-435px -502px;}
+.mov-16{ background-position:-461px -502px;}
+.mp3-16{ background-position:-487px -502px;}
+.mpeg-16{ background-position:-513px -502px;}
+
+.pdf-16{ background-position:-539px -502px;}
+.png-16{ background-position:-565px -502px;}
+.pptx-16-1{ background-position:-591px -502px;}
+.pptx-16-2{ background-position:-19px -528px;}
+.proj-16{ background-position:-45px -528px;}
+
+.psd-16{ background-position:-71px -528px;}
+.pst-16{ background-position:-97px -528px;}
+.pub-16{ background-position:-123px -528px;}
+.rar-16{ background-position:-149px -528px;}
+.readme-16{ background-position:-175px -528px;}
+
+.settings-16{ background-position:-201px -528px;}
+.text-16{ background-position:-227px -528px;}
+.tiff-16{ background-position:-253px -528px;}
+.url-16{ background-position:-279px -528px;}
+.vsd-16{ background-position:-305px -528px;}
+
+.wav-16{ background-position:-331px -528px;}
+.wma-16{ background-position:-357px -528px;}
+.wmv-16{ background-position:-383px -528px;}
+.xlsx-16-1{ background-position:-409px -528px;}
+.xlsx-16-2{ background-position:-435px -528px;}
+
+.zip-16{ background-position:-461px -528px;}
+.ppt-16-3{ background-position:-487px -528px;}
+.xls-16-3{ background-position:-513px -528px;}
+.csv-16{ background-position:-539px -528px;}
+.mp4-16{ background-position:-565px -528px;}
+
+.xml-16{ background-position:-591px -528px;}
+.ogg-16{ background-position:-19px -554px;}
+.no-16{ background-position:-45px -554px;}/*iso,exe,msi,js,bak,msu,dll,swf*/
+.iso-16{ background-position:-71px -554px;}
+.exe-16{ background-position:-97px -554px;}
+
+.msi-16{ background-position:-123px -554px;}
+.js-16{ background-position:-149px -554px;}
+.bak-16{ background-position:-175px -554px;}
+.msu-16{ background-position:-201px -554px;}
+.dll-16{ background-position:-227px -554px;}
+.swf-16{ background-position:-253px -554px;}

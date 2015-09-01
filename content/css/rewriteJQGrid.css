@@ -1,0 +1,25 @@
+﻿/*JQGrid*/
+.widget-box .ui-jqgrid,.widget-box .ui-jqgrid-view,.widget-box .ui-jqgrid-pager{width:100%;}
+
+/*treeGrid - from jquicss*/
+.jqTreeGrid .ui-icon { width: 16px; height: 16px; background-image: url(../imgs/icons/ui-icons_469bdd_256x240.png); }
+.jqTreeGrid .ui-widget-content .ui-icon {background-image: url(../imgs/icons/ui-icons_469bdd_256x240.png); }
+.jqTreeGrid .ui-state-highlight .ui-icon{background-image: url(../imgs/icons/ui-icons_2e83ff_256x240.png);}
+.jqTreeGrid .ui-icon-triangle-1-e {background-position: -32px -16px;}
+.jqTreeGrid .ui-icon-radio-off {background-position: -96px -144px;}
+.jqTreeGrid .ui-jqgrid .tree-minus {position: absolute;height: 18px;width: 18px;overflow: hidden;}
+.jqTreeGrid .ui-icon-triangle-1-s {background-position: -64px -16px;}
+.jqTreeGrid .ui-icon {display: block;text-indent: -99999px;overflow: hidden;background-repeat: no-repeat;}
+
+.ui-jqgrid tr.jqgrow td {
+        word-wrap: break-word; /* IE 5.5+ and CSS3 自动换行*/
+        white-space: pre-wrap; /* CSS3 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        overflow: hidden;
+        height: auto;
+        vertical-align: middle;
+        padding-top: 3px;
+        padding-bottom: 3px
+    }

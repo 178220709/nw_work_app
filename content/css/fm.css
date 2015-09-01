@@ -1,0 +1,343 @@
+﻿.ui-selectable-helper {
+    z-index:1050;
+    background-color:#aac3f6;
+    opacity:0.2;
+    filter: alpha(opacity=20);
+}
+
+.fmContainer {
+    width: 850px;
+    height: 600px;
+    padding:0;
+}
+
+.fmContainer .layout_tbl {
+    width:100%;
+    height:100%;
+    table-layout : fixed;
+}
+
+.fmContainer .layout_tbl .layout_content {
+    height:100%;
+}
+
+.fmContainer .layout_tbl .layout_content .grace-scoller
+{
+    vertical-align: top;
+    overflow: auto;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    height: 100%;
+}
+
+.fmInner {
+    height:100%;
+    margin:0 !important;
+}
+
+#fm_l_panel {
+    border-right: solid 1px #bbbaba;
+    height:100%;
+    width:25%;
+}
+
+#fm_r_panel {
+    height:100%;
+    margin:0;
+    width:75%;
+}
+
+#fm_l_panel .ops {
+    text-align: center;
+}
+
+#fm_l_panel .ops,   #fm_r_panel .ops, #uploader_container .ops {
+    background-color: #eee;
+    padding: 5px;
+    border: 1px solid #D6D6D4;
+    box-shadow: 0 0 5px #E0E0E0 inset;
+    border-right: 0; border-left: 0;
+}
+
+#fm_r_panel #filesList_status {
+    border-bottom-right-radius: 6px;
+    color: #222;
+    text-shadow: 0px 2px 2px #BDBDBD;
+}
+
+#fm_r_panel #filesList_status {
+    background-color: #eee;
+    padding: 5px;
+    border: 1px solid #D6D6D4;
+    box-shadow: 0 0 5px #E0E0E0 inset;
+    border-right: 0; border-left: 0;
+    min-height:30px;
+    box-sizing:border-box;
+}
+
+.fileinput-button {
+    position:relative;
+    overflow:hidden;
+}
+
+#fm_r_panel .ops form {
+    display:inline-block;
+    margin-right:10px;
+}
+
+.fileinput-button input {
+    position:absolute;
+    margin:0;
+    top:0;
+    right:0;
+    opacity: 0;
+    -ms-filter: 'alpha(opacity=0)';
+    font-size: 200px;
+    direction: ltr;
+    cursor: pointer;
+}
+
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+
+#folderTree,#filesList {
+    box-sizing: border-box;
+}
+
+#fileList_inner {
+    padding:5px;
+}
+
+#filesList .dataTable
+{
+    margin-bottom:0px;
+}
+
+/*#filesList .dataTables_scrollBody::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 12px;
+    background-color: #f0f0f0;
+}
+
+#filesList .dataTables_scrollBody::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    border: 4px solid rgba(255,255,255,0);
+    background-clip: content-box;
+    background-color: #bfbfbf;
+}
+
+#filesList .dataTables_scrollBody::-webkit-scrollbar-corner {
+    background-color: #e6e6e6;
+}*/
+
+#filesList ul {
+    margin:0;
+}
+
+#filesList ul li {
+    display:block;
+    position:relative;
+    padding:3px;
+    margin:0 10px 10px 0;
+    background-clip: padding-box;
+    content: '';
+    background: #fff;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#filesList ul li:hover {
+    cursor:pointer;
+    background: #ddd;
+}
+
+#filesList i.file_thumb,#filesList i.file_icon {
+    display: block;
+    margin: 0 auto;
+    width:64px;
+    height:64px;
+    margin-bottom:3px;
+}
+
+#filesList ul li input.file_input {
+    box-sizing: border-box;
+    width:100px;
+    height:15px;
+    margin: 0;
+    padding: 0;
+
+    border-radius:initial;
+    -webkit-border-radius:initial;
+    line-height: 11px;
+    font-size: 11px;
+}
+
+#filesList ul li i.icon-ok,#filesList ul li button.close {
+    position:absolute;
+    opacity:0;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    top:0;
+}
+
+#filesList ul li i.icon-ok {
+    left:3px;
+    display:none;
+}
+
+#filesList ul li:hover button.close {
+    opacity:0.2;
+    filter: alpha(opacity=20);
+}
+
+#filesList ul li button.close {
+    right:3px;
+}
+
+#filesList ul li:hover button.close:hover,
+#filesList ul li.ui-selected:hover i.icon-ok,
+#filesList ul li.ui-selected i.icon-ok,
+#filesList ul li.ui-selecting i.icon-ok{
+    opacity:0.6;
+    filter: alpha(opacity=40);
+    color: green;
+}
+
+#filesList ul li.ui-selected i.icon-ok
+{
+    display: block;
+}
+#filesList ul li.ui-selected{
+    background-color: #DFE9FD;
+}
+
+#filesList ul li span {
+    display:block;
+    width:100px;
+    overflow:hidden;
+    font-size:11px;
+    line-height:15px;
+    text-align:center;
+}
+
+#filesList ul li.ui-selecting,
+#filesList .dataTables_scrollBody tr.ui-selecting {
+    background-color:#f2f0f0;
+}
+
+#filesList .dataTables_scrollBody tr.ui-selected
+{
+    background-color:#f2f5fb;
+}
+
+#uploader_container .ops {
+    margin-bottom:7px;
+}
+
+#uploader_container #uploader_files {
+    width:600px;
+    overflow: auto;
+    max-height: 300px;
+}
+
+#uploader_container .file-row {
+    box-sizing:border-box;
+    width:100%;
+    font-size: 15px;
+    position:relative;
+    padding-top:7px;
+}
+
+#uploader_container .file-row .progress
+{
+    position:absolute;
+    top:0;
+    left:0;
+    height:3px;
+    width:100%;
+    display:none;
+    margin:0;
+}
+
+#uploader_container hr {
+    margin:10px;
+}
+
+#uploader_container .file-row-td {
+    min-height:1px;
+}
+
+#uploader_container .file-row-td.file-name {
+    width:28%;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+#uploader_container .file-row-td.file-preview canvas,#uploader_container .file-row-td.file-preview i {
+    display: block;
+    margin: 0 auto;
+}
+
+#uploader_container .file-row-td.file-preview {
+    width:15%;
+}
+
+#uploader_container .file-row-td.file-size {
+    width:15%;
+    text-align: center;
+}
+
+#uploader_container .file-row-td.file-msg {
+    width:18%;
+}
+
+#uploader_container .file-row-td.file-buttons {
+    width:20%;
+}
+
+#uploader_container .file-row-td:not(:first-child) {
+    margin-left:5px;
+}
+
+/*fix conflict with bootstrap*/
+.ztree li ul.line {
+    height:auto;
+}
+
+.ztree input.rename {
+    font-size:11px !important;
+    line-height:13px;
+    border-radius:initial !important;
+    box-shadow:none !important;
+    color:#000 !important;
+    vertical-align:top !important;
+}
+
+.ztree li a.curSelectedNode {
+height: 18px;
+}
+
+#filesList ul li i.icon-ok,button.close
+{
+    display:none;
+}
+#filesList ul li.ui-selected i.icon-ok,
+#filesList ul li:hover button.close
+{
+    display:block;
+}

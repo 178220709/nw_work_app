@@ -1,0 +1,11 @@
+{
+  "name": "nw-work-app",
+  "description": "some convenient operation for work ",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "toolbar": true,
+    "width": 860,
+    "height": 500
+  }
+}

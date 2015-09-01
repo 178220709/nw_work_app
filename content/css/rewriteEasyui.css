@@ -1,0 +1,7 @@
+﻿.panel-body{padding: 0px;}
+.menu-text{height: auto;line-height: 0px;float: none;padding-left: 0px;font-size: 13px;}
+.pagination{width:100%;}
+
+.combo-panel .tree {margin:0 0 0 -2px;overflow: hidden;}
+.combo-panel .tree .tree-folder {display:none}
+.combo-panel .tree-file, .tree-folder {background: none;width: 2px;}
