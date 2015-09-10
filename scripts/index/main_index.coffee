@@ -1,4 +1,4 @@
-define ["lib/avalon/mmRouter/mmRouter"], (avalon)->
+defineb ["lib/avalon/mmRouter/mmRouter"], (avalon)->
   indexModel = avalon.define "msTopContent", (vm)->
     vm.showContent = true; #content is load over
     vm.crumbs = [] #the crumbs on the top

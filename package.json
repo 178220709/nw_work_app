@@ -3,9 +3,33 @@
   "description": "some convenient operation for work ",
   "version": "0.0.1",
   "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/178220709/nw_work_app.git"
+  },
   "window": {
     "toolbar": true,
     "width": 860,
     "height": 500
+  },
+  "dependencies": {
+    "body-parser": "~1.10.2",
+    "cookie-parser": "~1.3.3",
+    "express": "~4.11.1",
+    "ejs": "~2.3.1",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0",
+    "mongodb": "~1.4.30",
+    "monk": "*",
+    "cheerio": "~0.18.0",
+    "lodash": "*",
+    "thenjs": "~2.0.0"
+  },
+  "devDependencies": {
+    "bson": "~0.2.18",
+    "debug": "~2.1.1",
+    "q": "~1.2.0",
+    "chai": "*",
+    "mocha":"*"
   }
 }

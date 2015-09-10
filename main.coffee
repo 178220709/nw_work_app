@@ -1,4 +1,4 @@
-require.config
+requireb.config
   urlArgs: {
     "scripts/*": "v=" + (new Date - 0)
 #"*": "v=" + "0.0.0.1"
@@ -26,7 +26,7 @@ require.config
   }
 
 
-require ["sc/index/main_index"],(index)->
+requireb ["sc/index/main_index"],(index)->
   index.init()
 
 

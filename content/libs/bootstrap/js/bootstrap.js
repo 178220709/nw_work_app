@@ -4,8 +4,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-define(["jquery"],function(jQuery){
- var $ = jQuery;
+
 
 
 
@@ -2311,5 +2310,3 @@ if (typeof jQuery === 'undefined') {
 }(jQuery);
 
 
- return jQuery
-});
